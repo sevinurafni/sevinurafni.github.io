@@ -9,5 +9,6 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://sevinurafni.github.io',
+    base: '/',
     integrations: [mdx(), sitemap(), react()],
 });
