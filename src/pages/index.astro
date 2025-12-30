@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="My Simulations">
+  <main>
+    <h1>My Simulation Collection</h1>
+    
+    <div class="simulations-grid">
+      <div class="card">
+        <h2>Simulation 1</h2>
+        <p>Description of your first simulation</p>
+        <a href="/simulation1">View →</a>
+      </div>
+      
+      <div class="card">
+        <h2>Simulation 2</h2>
+        <p>Description of your second simulation</p>
+        <a href="/simulation2">View →</a>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .simulations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+  }
+  
+  .card a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+</style>
