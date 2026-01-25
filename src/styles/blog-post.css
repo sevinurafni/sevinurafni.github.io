@@ -1,0 +1,50 @@
+article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.hero-image {
+  margin-bottom: 0.5rem;
+}
+
+
+.title * {
+  margin-top: 0;
+}
+
+.title h1 {
+  margin-bottom: 0.3rem;
+}
+
+.title .date {
+  margin-bottom: 0.3rem;
+}
+
+.context {
+  margin-bottom: 0.3rem;
+}
+
+.tags {
+  margin-top: 1 rem;
+}
+
+.prose {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.prose h2 {
+  margin-top: 3rem;
+}
+
+.prose blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 1rem;
+  color: #555;
+}
+
+.tags a {
+  margin-right: 0.4rem;
+  font-size: 0.9rem;
+}

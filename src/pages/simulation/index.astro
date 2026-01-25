@@ -1,0 +1,31 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import '../../styles/simulation.css';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Welcome to My Simulations Portfolio</h1>
+      <p>Explore my interactive simulations and projects.</p>
+      
+      <section class="simulations">
+        <div class="card">
+          <h2>Irrigation Robot Simulator</h2>
+          <a href="/frappadingue/">View Simulation →</a>
+        </div>
+        
+        <!-- Add more simulation cards here -->
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
